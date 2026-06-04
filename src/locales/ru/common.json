@@ -6,6 +6,7 @@
   "nav.home": "Главная",
   "nav.about": "О нас",
   "nav.products": "Продукция",
+  "nav.partner": "Партнёр",
   "nav.contact": "Контакты",
 
   "header.tagline": "Надёжный поставщик электронных компонентов",
@@ -44,5 +45,7 @@
   "seo.products.title": "Каталог электронных компонентов — полупроводники, микросхемы, чипы | JingJiang Trading",
   "seo.products.description": "Широкий ассортимент электронных компонентов: микросхемы, полупроводники, датчики, контроллеры, пассивные элементы.",
   "seo.contact.title": "Контакты JingJiang Trading — свяжитесь с нами для заказа компонентов",
-  "seo.contact.description": "Свяжитесь с Guangzhou JingJiang Trading для заказа электронных компонентов. Email, телефон, Telegram, WhatsApp."
+  "seo.contact.description": "Свяжитесь с Guangzhou JingJiang Trading для заказа электронных компонентов. Email, телефон, Telegram, WhatsApp.",
+  "seo.partner.title": "Специальный партнёр — Shuofeng Grinding | JingJiang Trading",
+  "seo.partner.description": "Shuofeng Grinding Technology — ведущий мировой поставщик профессиональных полировальных и шлифовальных продуктов. Стратегический партнёр JingJiang Trading."
 }

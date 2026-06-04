@@ -6,6 +6,7 @@
   "nav.home": "Home",
   "nav.about": "About Us",
   "nav.products": "Products",
+  "nav.partner": "Partner",
   "nav.contact": "Contact",
 
   "header.tagline": "Reliable Electronic Components Supplier",
@@ -44,5 +45,7 @@
   "seo.products.title": "Electronic Components Catalog — Semiconductors, ICs, Chips | JingJiang Trading",
   "seo.products.description": "Wide range of electronic components: ICs, semiconductors, sensors, controllers, passive components.",
   "seo.contact.title": "Contact JingJiang Trading — Reach Us for Component Orders",
-  "seo.contact.description": "Contact Guangzhou JingJiang Trading for electronic component orders. Email, phone, Telegram, WhatsApp."
+  "seo.contact.description": "Contact Guangzhou JingJiang Trading for electronic component orders. Email, phone, Telegram, WhatsApp.",
+  "seo.partner.title": "Special Partner — Shuofeng Grinding | JingJiang Trading",
+  "seo.partner.description": "Shuofeng Grinding Technology — Global leading supplier of professional polishing and grinding products. Strategic partner of JingJiang Trading."
 }

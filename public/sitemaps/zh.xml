@@ -26,44 +26,19 @@
     <changefreq>weekly</changefreq>
   </url>
   <url>
+    <loc>https://www.jjtrading.com.cn/zh/partner</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.jjtrading.com.cn/ru/partner"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.jjtrading.com.cn/en/partner"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.jjtrading.com.cn/zh/partner"/>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>https://www.jjtrading.com.cn/zh/contact</loc>
     <xhtml:link rel="alternate" hreflang="ru" href="https://www.jjtrading.com.cn/ru/contact"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.jjtrading.com.cn/en/contact"/>
     <xhtml:link rel="alternate" hreflang="zh" href="https://www.jjtrading.com.cn/zh/contact"/>
     <priority>0.8</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://www.jjtrading.com.cn/zh/blog</loc>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://www.jjtrading.com.cn/ru/blog"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.jjtrading.com.cn/en/blog"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://www.jjtrading.com.cn/zh/blog"/>
-    <priority>0.7</priority>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>https://www.jjtrading.com.cn/zh/blog/kak-vybrat-mikrokontroller</loc>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://www.jjtrading.com.cn/zh/blog/obzor-rynka-poluprovodnikov-2024</loc>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://www.jjtrading.com.cn/zh/blog/stm32-vs-esp32-sravnenie</loc>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://www.jjtrading.com.cn/zh/blog/chto-takoe-bom-optimizatsiya-zatrat</loc>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://www.jjtrading.com.cn/zh/blog/passivnye-komponenty-rezistory-kondensatory</loc>
-    <priority>0.6</priority>
     <changefreq>monthly</changefreq>
   </url>
 </urlset>

@@ -19,6 +19,7 @@ export function MobileNav({ commonDict, locale }: MobileNavProps) {
     { href: `/${locale}`, label: commonDict["nav.home"] },
     { href: `/${locale}/about`, label: commonDict["nav.about"] },
     { href: `/${locale}/products`, label: commonDict["nav.products"] },
+    { href: `/${locale}/partner`, label: commonDict["nav.partner"] },
     { href: `/${locale}/contact`, label: commonDict["nav.contact"] },
   ];
 

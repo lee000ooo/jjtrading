@@ -6,6 +6,7 @@
   "nav.home": "首页",
   "nav.about": "关于我们",
   "nav.products": "产品中心",
+  "nav.partner": "特别合作伙伴",
   "nav.contact": "联系我们",
 
   "header.tagline": "值得信赖的电子元器件供应商",
@@ -44,5 +45,7 @@
   "seo.products.title": "电子元器件目录 — 半导体、集成电路、芯片 | 璟江贸易",
   "seo.products.description": "丰富的电子元器件产品线：集成电路、半导体、传感器、控制器、被动元件。",
   "seo.contact.title": "联系璟江贸易 — 元器件订购咨询",
-  "seo.contact.description": "联系广州璟江贸易有限公司订购电子元器件。邮箱、电话、Telegram、WhatsApp。"
+  "seo.contact.description": "联系广州璟江贸易有限公司订购电子元器件。邮箱、电话、Telegram、WhatsApp。",
+  "seo.partner.title": "特别合作伙伴 — 硕丰研磨 | 璟江贸易",
+  "seo.partner.description": "硕丰研磨科技有限公司 — 专业抛光研磨产品全球领先供应商。璟江贸易的战略合作伙伴。"
 }
