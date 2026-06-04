@@ -1,0 +1,48 @@
+{
+  "site.name": "广州璟江贸易有限公司 — поставщик электронных компонентов",
+  "site.description": "Профессиональные поставки полупроводников, микросхем и электронных компонентов. Guangzhou JingJiang Trading Co., Ltd. B2B, опт и розница. Чипы, транзисторы, датчики, контроллеры.",
+  "site.keywords": "электронные компоненты, полупроводники, микросхемы, чипы, поставщик электронных компонентов, B2B полупроводники, Guangzhou JingJiang Trading",
+
+  "nav.home": "Главная",
+  "nav.about": "О нас",
+  "nav.products": "Продукция",
+  "nav.contact": "Контакты",
+
+  "header.tagline": "Надёжный поставщик электронных компонентов",
+  "header.themeToggle": "Переключить тему",
+  "header.language": "Язык",
+
+  "footer.rights": "© 2024 广州璟江贸易有限公司. Все права защищены.",
+  "footer.tagline": "Ваш надёжный партнёр по поставкам электронных компонентов.",
+  "footer.quickLinks": "Быстрые ссылки",
+  "footer.contactInfo": "Контактная информация",
+  "footer.followUs": "Мы в соцсетях",
+  "footer.email": "lichengyin@jjtrading.com.cn",
+  "footer.phone": "+86 135-8035-3907",
+  "footer.address": "г. Гуанчжоу, р-н Цзэнчэн, пос. Синьтан, ул. Наньсяншань Дадао, 2, технопарк YunXiang, корпус A, этаж 6, офис 618",
+  "footer.workingHours": "24/7, без выходных",
+
+  "theme.light": "Светлая",
+  "theme.dark": "Тёмная",
+
+  "button.readMore": "Подробнее",
+  "button.contactUs": "Связаться с нами",
+  "button.viewProducts": "Смотреть продукцию",
+  "button.submit": "Отправить",
+  "button.getQuote": "Запросить цену",
+  "button.viewAll": "Смотреть все",
+
+  "breadcrumb.home": "Главная",
+  "breadcrumb.about": "О нас",
+  "breadcrumb.products": "Продукция",
+  "breadcrumb.contact": "Контакты",
+
+  "seo.home.title": "广州璟江贸易有限公司 — поставка электронных компонентов и полупроводников",
+  "seo.home.description": "Guangzhou JingJiang Trading — профессиональный поставщик полупроводников, микросхем и электронных компонентов. B2B поставки, высокое качество.",
+  "seo.about.title": "О компании 广州璟江贸易有限公司 — поставщик электронных компонентов",
+  "seo.about.description": "Узнайте больше о Guangzhou JingJiang Trading — надёжном поставщике полупроводников и электронных компонентов.",
+  "seo.products.title": "Каталог электронных компонентов — полупроводники, микросхемы, чипы | JingJiang Trading",
+  "seo.products.description": "Широкий ассортимент электронных компонентов: микросхемы, полупроводники, датчики, контроллеры, пассивные элементы.",
+  "seo.contact.title": "Контакты JingJiang Trading — свяжитесь с нами для заказа компонентов",
+  "seo.contact.description": "Свяжитесь с Guangzhou JingJiang Trading для заказа электронных компонентов. Email, телефон, Telegram, WhatsApp."
+}

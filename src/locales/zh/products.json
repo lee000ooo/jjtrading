@@ -1,0 +1,54 @@
+{
+  "page.title": "电子元器件产品目录",
+  "page.subtitle": "丰富的半导体、集成电路和电子元器件产品线，服务于工业和商业客户",
+  "filter.all": "全部分类",
+  "filter.search": "搜索产品...",
+
+  "categories.ic.title": "集成电路",
+  "categories.ic.desc": "逻辑IC、接口IC、运算放大器、比较器、定时器、专用IC",
+  "categories.ic.parts": "NE555, LM324, LM358, MAX232, CD4017, CD4040, ULN2003, ICL7106, AD620, OP07",
+  "categories.ic.cta": "查看IC",
+
+  "categories.mcu.title": "微控制器与处理器",
+  "categories.mcu.desc": "8位和32位MCU、DSP、FPGA、SoC、单板计算机",
+  "categories.mcu.parts": "STM32F103C8T6, ATmega328P, ESP32, STM32F407VGT6, Raspberry Pi, Arduino, LPC1768, PIC16F877A",
+  "categories.mcu.cta": "查看MCU",
+
+  "categories.sensors.title": "传感器",
+  "categories.sensors.desc": "温度、湿度、压力、运动、光学、超声波、磁传感器",
+  "categories.sensors.parts": "DHT22, BMP280, MPU6050, HC-SR04, LM35, DS18B20, BME280, ACS712, MQ-2, TCS34725",
+  "categories.sensors.cta": "查看传感器",
+
+  "categories.power.title": "功率器件",
+  "categories.power.desc": "稳压器、DC-DC转换器、AC-DC模块、PWM控制器、驱动器",
+  "categories.power.parts": "LM2596, XL4015, IR2104, TL494, UC3842, L7805CV, LM317T, TPS5430, MP2307DN",
+  "categories.power.cta": "查看功率器件",
+
+  "categories.memory.title": "存储芯片",
+  "categories.memory.desc": "闪存、EEPROM、SRAM、DRAM、FRAM、存储卡",
+  "categories.memory.parts": "W25Q64FVSSIG, AT24C256, 24LC64, MT41K256M16, S34ML01G1, MX25L12835F",
+  "categories.memory.cta": "查看存储芯片",
+
+  "categories.passive.title": "被动元件",
+  "categories.passive.desc": "电阻、电容、电感、铁氧体元件、石英晶振",
+  "categories.passive.parts": "0402-2512电阻、MLCC电容、电解电容、电感",
+  "categories.passive.cta": "查看被动元件",
+
+  "categories.diode.title": "二极管与晶体管",
+  "categories.diode.desc": "整流管、稳压管、肖特基二极管、MOSFET、IGBT、BJT晶体管",
+  "categories.diode.parts": "1N4148, 1N4007, SS34, IRF520, IRFZ44N, 2N2222, BC547, IRLZ44N, STP16NF06",
+  "categories.diode.cta": "查看二极管",
+
+  "categories.connector.title": "连接器",
+  "categories.connector.desc": "工业连接器、接线端子、排针、IDC、USB、HDMI、RJ45、BNC、同轴",
+  "categories.connector.parts": "USB-C, RJ45, DB9, IDC-10, IDC-20, 2.54mm接线端子, XH2.54, PH2.0",
+  "categories.connector.cta": "查看连接器",
+
+  "bom.title": "BOM分析与元器件配套",
+  "bom.desc": "发送您的物料清单（BOM），我们将以最优的价格和交期为您的BOM配齐所有元器件。",
+  "bom.cta": "提交BOM",
+
+  "support.title": "需要选型帮助？",
+  "support.desc": "我们的技术专家将协助您为项目选择合适的元器件。",
+  "support.cta": "获取咨询"
+}

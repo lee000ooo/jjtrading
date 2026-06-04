@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://www.jjtrading.com.cn/en</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.jjtrading.com.cn/ru"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.jjtrading.com.cn/en"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.jjtrading.com.cn/zh"/>
+    <priority>1.0</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://www.jjtrading.com.cn/en/about</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.jjtrading.com.cn/ru/about"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.jjtrading.com.cn/en/about"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.jjtrading.com.cn/zh/about"/>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://www.jjtrading.com.cn/en/products</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.jjtrading.com.cn/ru/products"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.jjtrading.com.cn/en/products"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.jjtrading.com.cn/zh/products"/>
+    <priority>0.9</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://www.jjtrading.com.cn/en/contact</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.jjtrading.com.cn/ru/contact"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.jjtrading.com.cn/en/contact"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.jjtrading.com.cn/zh/contact"/>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://www.jjtrading.com.cn/en/blog</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.jjtrading.com.cn/ru/blog"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.jjtrading.com.cn/en/blog"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.jjtrading.com.cn/zh/blog"/>
+    <priority>0.7</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://www.jjtrading.com.cn/en/blog/kak-vybrat-mikrokontroller</loc>
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://www.jjtrading.com.cn/en/blog/obzor-rynka-poluprovodnikov-2024</loc>
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://www.jjtrading.com.cn/en/blog/stm32-vs-esp32-sravnenie</loc>
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://www.jjtrading.com.cn/en/blog/chto-takoe-bom-optimizatsiya-zatrat</loc>
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://www.jjtrading.com.cn/en/blog/passivnye-komponenty-rezistory-kondensatory</loc>
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+</urlset>

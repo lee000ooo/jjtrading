@@ -1,0 +1,35 @@
+{
+  "page.title": "Контакты Guangzhou JingJiang Trading",
+  "page.subtitle": "Свяжитесь с нами любым удобным способом. Мы всегда готовы помочь с подбором и поставкой электронных компонентов.",
+
+  "info.title": "Наши контакты",
+  "info.address.title": "Адрес офиса",
+  "info.address.value": "г. Гуанчжоу, р-н Цзэнчэн, пос. Синьтан,\nул. Наньсяншань Дадао, 2,\nтехнопарк YunXiang Tech Park,\nкорпус A, этаж 6, офис 618",
+  "info.address.metro": "",
+  "info.phone.title": "Телефон",
+  "info.phone.value": "+86 135-8035-3907",
+  "info.email.title": "Email",
+  "info.email.value": "lichengyin@jjtrading.com.cn",
+  "info.workingHours": "24/7, без выходных",
+
+  "messengers.title": "Мессенджеры",
+  "messengers.whatsapp": "WhatsApp",
+"messengers.wechat": "WeChat",
+
+  "form.title": "Отправить запрос",
+  "form.subtitle": "Заполните форму, и мы свяжемся с вами в ближайшее время",
+  "form.name": "Ваше имя",
+  "form.phone": "Телефон",
+  "form.email": "Email",
+  "form.company": "Компания",
+  "form.message": "Сообщение",
+  "form.submit": "Отправить запрос",
+  "form.success": "Спасибо! Ваш запрос отправлен. Мы свяжемся с вами в течение 2 часов.",
+  "form.placeholder.name": "Иван Иванов",
+  "form.placeholder.message": "Опишите ваш запрос: компоненты, количество, сроки...",
+
+  "map.title": "Мы на карте",
+
+  "cta.title": "Работаем с клиентами по всему миру",
+  "cta.desc": "Доставляем заказы в Россию, страны СНГ и по всему миру."
+}

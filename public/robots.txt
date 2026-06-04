@@ -1,0 +1,17 @@
+# robots.txt for Guangzhou JingJiang Trading
+# Яндекс
+User-agent: Yandex
+Allow: /
+Host: https://www.jjtrading.com.cn
+Clean-param: utm_source&utm_medium&utm_campaign
+Sitemap: https://www.jjtrading.com.cn/sitemap-index.xml
+
+# Google
+User-agent: Googlebot
+Allow: /
+Sitemap: https://www.jjtrading.com.cn/sitemap-index.xml
+
+# Others
+User-agent: *
+Allow: /
+Sitemap: https://www.jjtrading.com.cn/sitemap-index.xml

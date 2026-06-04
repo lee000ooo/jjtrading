@@ -1,0 +1,48 @@
+{
+  "site.name": "广州璟江贸易有限公司 — 电子元器件供应商",
+  "site.description": "专业供应半导体、集成电路和电子元器件。广州璟江贸易有限公司。B2B批发零售。芯片、晶体管、传感器、控制器。",
+  "site.keywords": "电子元器件,半导体,集成电路,芯片,电子元件供应商,B2B半导体,广州璟江贸易",
+
+  "nav.home": "首页",
+  "nav.about": "关于我们",
+  "nav.products": "产品中心",
+  "nav.contact": "联系我们",
+
+  "header.tagline": "值得信赖的电子元器件供应商",
+  "header.themeToggle": "切换主题",
+  "header.language": "语言",
+
+  "footer.rights": "© 2024 广州璟江贸易有限公司. 保留所有权利。",
+  "footer.tagline": "您值得信赖的电子元器件供应合作伙伴。",
+  "footer.quickLinks": "快速链接",
+  "footer.contactInfo": "联系方式",
+  "footer.followUs": "关注我们",
+  "footer.email": "lichengyin@jjtrading.com.cn",
+  "footer.phone": "+86 135-8035-3907",
+  "footer.address": "广州市增城区新塘镇南香山大道2号云享科技园A栋6楼618室",
+  "footer.workingHours": "24/7，全天候服务",
+
+  "theme.light": "浅色",
+  "theme.dark": "深色",
+
+  "button.readMore": "了解更多",
+  "button.contactUs": "联系我们",
+  "button.viewProducts": "查看产品",
+  "button.submit": "提交",
+  "button.getQuote": "获取报价",
+  "button.viewAll": "查看全部",
+
+  "breadcrumb.home": "首页",
+  "breadcrumb.about": "关于我们",
+  "breadcrumb.products": "产品中心",
+  "breadcrumb.contact": "联系我们",
+
+  "seo.home.title": "广州璟江贸易有限公司 — 电子元器件与半导体供应商",
+  "seo.home.description": "广州璟江贸易有限公司 — 专业的半导体、集成电路和电子元器件供应商。B2B供应，高品质。",
+  "seo.about.title": "关于广州璟江贸易有限公司 — 电子元器件供应商",
+  "seo.about.description": "了解广州璟江贸易有限公司 — 值得信赖的半导体和电子元器件供应商。",
+  "seo.products.title": "电子元器件目录 — 半导体、集成电路、芯片 | 璟江贸易",
+  "seo.products.description": "丰富的电子元器件产品线：集成电路、半导体、传感器、控制器、被动元件。",
+  "seo.contact.title": "联系璟江贸易 — 元器件订购咨询",
+  "seo.contact.description": "联系广州璟江贸易有限公司订购电子元器件。邮箱、电话、Telegram、WhatsApp。"
+}

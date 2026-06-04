@@ -1,0 +1,35 @@
+{
+  "page.title": "联系广州璟江贸易有限公司",
+  "page.subtitle": "通过任何便捷的方式联系我们。我们随时准备协助您采购电子元器件。",
+
+  "info.title": "联系方式",
+  "info.address.title": "公司地址",
+  "info.address.value": "广州市增城区新塘镇南香山大道2号\n云享科技园A栋6楼618室",
+  "info.address.metro": "",
+  "info.phone.title": "电话",
+  "info.phone.value": "+86 135-8035-3907",
+  "info.email.title": "邮箱",
+  "info.email.value": "lichengyin@jjtrading.com.cn",
+  "info.workingHours": "7*24小时 全天候服务",
+
+  "messengers.title": "即时通讯",
+  "messengers.whatsapp": "WhatsApp",
+"messengers.wechat": "微信",
+
+  "form.title": "提交询价",
+  "form.subtitle": "填写表单，我们将尽快与您联系",
+  "form.name": "您的姓名",
+  "form.phone": "电话",
+  "form.email": "邮箱",
+  "form.company": "公司名称",
+  "form.message": "留言内容",
+  "form.submit": "提交询价",
+  "form.success": "感谢您！您的询价已提交。我们将在2小时内与您联系。",
+  "form.placeholder.name": "张三",
+  "form.placeholder.message": "请描述您的需求：元器件型号、数量、交期...",
+
+  "map.title": "在地图上查看",
+
+  "cta.title": "服务全球客户",
+  "cta.desc": "我们配送至俄罗斯、独联体及全球各地。"
+}

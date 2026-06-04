@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none">
+  <defs>
+    <linearGradient id="chipBody" x1="0" y1="0" x2="120" y2="120" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0F1F5E"/>
+      <stop offset="100%" stop-color="#06B6D4"/>
+    </linearGradient>
+    <linearGradient id="chipBodyHover" x1="0" y1="0" x2="120" y2="120" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#132E99"/>
+      <stop offset="100%" stop-color="#22D3EE"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Connection Ports (not rotated) -->
+  <!-- Left port -->
+  <circle cx="32" cy="60" r="7" fill="none" stroke="url(#chipBody)" stroke-width="2.5"/>
+  <circle cx="32" cy="60" r="2.5" fill="url(#chipBody)"/>
+  <!-- Right port -->
+  <circle cx="88" cy="60" r="7" fill="none" stroke="url(#chipBody)" stroke-width="2.5"/>
+  <circle cx="88" cy="60" r="2.5" fill="url(#chipBody)"/>
+  <!-- Bottom port -->
+  <circle cx="60" cy="90" r="7" fill="none" stroke="url(#chipBody)" stroke-width="2.5"/>
+  <circle cx="60" cy="90" r="2.5" fill="url(#chipBody)"/>
+
+  <!-- Rotated chip body -->
+  <g transform="translate(60, 55) rotate(30) translate(-60, -55)">
+    <!-- Main chip body -->
+    <rect x="28" y="23" width="64" height="64" rx="8" fill="url(#chipBody)"/>
+    <!-- Inner border highlight -->
+    <rect x="34" y="29" width="52" height="52" rx="5" fill="none" stroke="rgba(255,255,255,0.15)" stroke-width="1.5"/>
+
+    <!-- Z-shaped trace 1 (top) -->
+    <polyline
+      points="40,37 50,37 60,49 74,49"
+      fill="none"
+      stroke="white"
+      stroke-width="2.8"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+    <!-- Z-shaped trace 2 (bottom) -->
+    <polyline
+      points="40,53 48,53 58,63 74,63"
+      fill="none"
+      stroke="white"
+      stroke-width="2.8"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+
+    <!-- Small decorative dots at trace ends -->
+    <circle cx="40" cy="37" r="2" fill="white" opacity="0.8"/>
+    <circle cx="74" cy="49" r="2" fill="white" opacity="0.8"/>
+    <circle cx="40" cy="53" r="2" fill="white" opacity="0.8"/>
+    <circle cx="74" cy="63" r="2" fill="white" opacity="0.8"/>
+  </g>
+
+  <!-- Port connection lines (traces from chip to ports) -->
+  <line x1="60" y1="87" x2="60" y2="83" stroke="url(#chipBody)" stroke-width="1.5" opacity="0.6"/>
+  <line x1="35" y1="60" x2="39" y2="60" stroke="url(#chipBody)" stroke-width="1.5" opacity="0.6"/>
+  <line x1="85" y1="60" x2="81" y2="60" stroke="url(#chipBody)" stroke-width="1.5" opacity="0.6"/>
+</svg>

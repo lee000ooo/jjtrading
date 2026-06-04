@@ -1,0 +1,48 @@
+{
+  "site.name": "Guangzhou JingJiang Trading Co., Ltd. — Electronic Components Supplier",
+  "site.description": "Professional supply of semiconductors, ICs and electronic components. Guangzhou JingJiang Trading Co., Ltd. B2B wholesale and retail. Chips, transistors, sensors, controllers.",
+  "site.keywords": "electronic components, semiconductors, microchips, ICs, electronic components supplier, B2B semiconductors, Guangzhou JingJiang Trading",
+
+  "nav.home": "Home",
+  "nav.about": "About Us",
+  "nav.products": "Products",
+  "nav.contact": "Contact",
+
+  "header.tagline": "Reliable Electronic Components Supplier",
+  "header.themeToggle": "Toggle theme",
+  "header.language": "Language",
+
+  "footer.rights": "© 2024 Guangzhou JingJiang Trading Co., Ltd. All rights reserved.",
+  "footer.tagline": "Your trusted partner for electronic components supply.",
+  "footer.quickLinks": "Quick Links",
+  "footer.contactInfo": "Contact Info",
+  "footer.followUs": "Follow Us",
+  "footer.email": "lichengyin@jjtrading.com.cn",
+  "footer.phone": "+86 135-8035-3907",
+  "footer.address": "Guangzhou, Zengcheng Dist., Xintang Town, Nanxiangshan Ave. 2, YunXiang Tech Park, Bldg A, 6F, Rm 618",
+  "footer.workingHours": "24/7, round-the-clock",
+
+  "theme.light": "Light",
+  "theme.dark": "Dark",
+
+  "button.readMore": "Read More",
+  "button.contactUs": "Contact Us",
+  "button.viewProducts": "View Products",
+  "button.submit": "Submit",
+  "button.getQuote": "Get a Quote",
+  "button.viewAll": "View All",
+
+  "breadcrumb.home": "Home",
+  "breadcrumb.about": "About Us",
+  "breadcrumb.products": "Products",
+  "breadcrumb.contact": "Contact",
+
+  "seo.home.title": "Guangzhou JingJiang Trading — Electronic Components & Semiconductors Supplier",
+  "seo.home.description": "Guangzhou JingJiang Trading — professional supplier of semiconductors, ICs and electronic components. B2B supply, high quality.",
+  "seo.about.title": "About Guangzhou JingJiang Trading — Electronic Components Supplier",
+  "seo.about.description": "Learn more about Guangzhou JingJiang Trading — a trusted semiconductor and electronic components supplier.",
+  "seo.products.title": "Electronic Components Catalog — Semiconductors, ICs, Chips | JingJiang Trading",
+  "seo.products.description": "Wide range of electronic components: ICs, semiconductors, sensors, controllers, passive components.",
+  "seo.contact.title": "Contact JingJiang Trading — Reach Us for Component Orders",
+  "seo.contact.description": "Contact Guangzhou JingJiang Trading for electronic component orders. Email, phone, Telegram, WhatsApp."
+}

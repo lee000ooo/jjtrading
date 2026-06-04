@@ -1,0 +1,54 @@
+{
+  "page.title": "Electronic Components Catalog",
+  "page.subtitle": "Wide range of semiconductors, ICs and electronic components for industry and commerce",
+  "filter.all": "All Categories",
+  "filter.search": "Search catalog...",
+
+  "categories.ic.title": "Integrated Circuits",
+  "categories.ic.desc": "Logic ICs, interface ICs, op-amps, comparators, timers, specialized ICs",
+  "categories.ic.parts": "NE555, LM324, LM358, MAX232, CD4017, CD4040, ULN2003, ICL7106, AD620, OP07",
+  "categories.ic.cta": "View ICs",
+
+  "categories.mcu.title": "Microcontrollers & Processors",
+  "categories.mcu.desc": "8-bit and 32-bit MCUs, DSP, FPGA, SoC, single-board computers",
+  "categories.mcu.parts": "STM32F103C8T6, ATmega328P, ESP32, STM32F407VGT6, Raspberry Pi, Arduino, LPC1768, PIC16F877A",
+  "categories.mcu.cta": "View MCUs",
+
+  "categories.sensors.title": "Sensors & Detectors",
+  "categories.sensors.desc": "Temperature, humidity, pressure, motion, optical, ultrasonic, magnetic sensors",
+  "categories.sensors.parts": "DHT22, BMP280, MPU6050, HC-SR04, LM35, DS18B20, BME280, ACS712, MQ-2, TCS34725",
+  "categories.sensors.cta": "View Sensors",
+
+  "categories.power.title": "Power Electronics",
+  "categories.power.desc": "Voltage regulators, DC-DC converters, AC-DC modules, PWM controllers, drivers",
+  "categories.power.parts": "LM2596, XL4015, IR2104, TL494, UC3842, L7805CV, LM317T, TPS5430, MP2307DN",
+  "categories.power.cta": "View Power",
+
+  "categories.memory.title": "Memory ICs",
+  "categories.memory.desc": "Flash memory, EEPROM, SRAM, DRAM, FRAM, memory cards",
+  "categories.memory.parts": "W25Q64FVSSIG, AT24C256, 24LC64, MT41K256M16, S34ML01G1, MX25L12835F",
+  "categories.memory.cta": "View Memory",
+
+  "categories.passive.title": "Passive Components",
+  "categories.passive.desc": "Resistors, capacitors, inductors, ferrite elements, crystal oscillators",
+  "categories.passive.parts": "Resistors 0402-2512, MLCC capacitors, electrolytic capacitors, inductors",
+  "categories.passive.cta": "View Passives",
+
+  "categories.diode.title": "Diodes & Transistors",
+  "categories.diode.desc": "Rectifiers, Zener diodes, Schottky diodes, MOSFET, IGBT, BJT transistors",
+  "categories.diode.parts": "1N4148, 1N4007, SS34, IRF520, IRFZ44N, 2N2222, BC547, IRLZ44N, STP16NF06",
+  "categories.diode.cta": "View Diodes",
+
+  "categories.connector.title": "Connectors",
+  "categories.connector.desc": "Industrial connectors, terminal blocks, pin-header, IDC, USB, HDMI, RJ45, BNC, coaxial",
+  "categories.connector.parts": "USB-C, RJ45, DB9, IDC-10, IDC-20, terminal blocks 2.54mm, XH2.54, PH2.0",
+  "categories.connector.cta": "View Connectors",
+
+  "bom.title": "BOM Analysis and Component Sourcing",
+  "bom.desc": "Send your Bill of Materials — we will source all required components at best prices and lead times.",
+  "bom.cta": "Submit BOM",
+
+  "support.title": "Need Help Choosing?",
+  "support.desc": "Our technical specialists will help select components for your project.",
+  "support.cta": "Get Consultation"
+}

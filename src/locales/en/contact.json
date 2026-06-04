@@ -1,0 +1,35 @@
+{
+  "page.title": "Contact Guangzhou JingJiang Trading",
+  "page.subtitle": "Reach us by any convenient method. We're always ready to help with component sourcing and supply.",
+
+  "info.title": "Our Contacts",
+  "info.address.title": "Office Address",
+  "info.address.value": "Guangzhou, Zengcheng Dist., Xintang Town,\nNanxiangshan Ave. 2, YunXiang Tech Park,\nBldg A, 6th Floor, Rm 618",
+  "info.address.metro": "",
+  "info.phone.title": "Phone",
+  "info.phone.value": "+86 135-8035-3907",
+  "info.email.title": "Email",
+  "info.email.value": "lichengyin@jjtrading.com.cn",
+  "info.workingHours": "24/7, round-the-clock",
+
+  "messengers.title": "Messengers",
+  "messengers.whatsapp": "WhatsApp",
+"messengers.wechat": "WeChat",
+
+  "form.title": "Send a Request",
+  "form.subtitle": "Fill in the form and we'll contact you shortly",
+  "form.name": "Your Name",
+  "form.phone": "Phone",
+  "form.email": "Email",
+  "form.company": "Company",
+  "form.message": "Message",
+  "form.submit": "Send Request",
+  "form.success": "Thank you! Your request has been sent. We'll contact you within 2 hours.",
+  "form.placeholder.name": "John Smith",
+  "form.placeholder.message": "Describe your request: components, quantity, timelines...",
+
+  "map.title": "Find Us on Map",
+
+  "cta.title": "We Serve Clients Worldwide",
+  "cta.desc": "We deliver orders to Russia, CIS countries, and around the world."
+}
