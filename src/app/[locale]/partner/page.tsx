@@ -11,7 +11,12 @@ import {
   Globe,
   MapPin,
   ExternalLink,
+  CheckCircle2,
+  Target,
+  Ruler,
 } from "lucide-react";
+import { partnerProducts } from "@/lib/partner-products";
+import { ImageCarousel } from "@/components/partner/image-carousel";
 import type { Locale } from "@/lib/utils";
 
 type Props = {
@@ -147,51 +152,127 @@ export default async function PartnerPage({ params }: Props) {
         </div>
       </section>
 
-      {/* Products */}
+      {/* Image Gallery */}
       <section className="py-16 md:py-20">
         <div className="container mx-auto px-4 max-w-7xl">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold mb-4">
+          <h2 className="text-3xl font-bold mb-10 text-center">
+            Gallery
+          </h2>
+          <ImageCarousel
+            images={Array.from({ length: 19 }, (_, i) => ({
+              src: `/images/partner/硕丰研磨_${String(i + 3).padStart(2, "0")}.png`,
+              alt: `Shuofeng Grinding ${i + 1}`,
+            }))}
+          />
+        </div>
+      </section>
+
+      {/* Products — Brochure Style */}
+      <section className="py-16 md:py-20">
+        <div className="container mx-auto px-4 max-w-7xl">
+          <div className="text-center mb-16">
+            <h2 className="text-3xl md:text-4xl font-bold mb-4">
               {dict["products.title"]}
             </h2>
-            <p className="text-lg text-muted-foreground">
+            <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
               {dict["products.subtitle"]}
             </p>
           </div>
-          <div className="grid md:grid-cols-3 gap-6">
-            <div className="rounded-2xl border bg-card p-6 hover:shadow-md transition-shadow">
-              <div className="flex items-center justify-center w-12 h-12 rounded-xl bg-primary/10 text-primary mb-4">
-                <Factory className="h-6 w-6" />
+
+          <div className="space-y-20">
+            {partnerProducts.map((category, ci) => (
+              <div key={category.id}>
+                {/* Category Header */}
+                <div className="flex items-center gap-3 mb-10 pb-4 border-b">
+                  <div className="flex items-center justify-center w-10 h-10 rounded-lg bg-primary/10 text-primary">
+                    {category.icon === "factory" ? (
+                      <Factory className="h-5 w-5" />
+                    ) : category.icon === "flask" ? (
+                      <FlaskConical className="h-5 w-5" />
+                    ) : (
+                      <Building2 className="h-5 w-5" />
+                    )}
+                  </div>
+                  <h3 className="text-2xl font-bold">
+                    {dict[`product.${category.id === "consumables" ? "consumables" : category.id === "chemicals" ? "chemicals" : "equipment"}`]}
+                  </h3>
+                </div>
+
+                {/* Product Cards */}
+                <div className="grid lg:grid-cols-2 gap-6">
+                  {category.products.map((product, pi) => (
+                    <div
+                      key={pi}
+                      className="rounded-2xl border bg-card overflow-hidden hover:shadow-lg transition-shadow"
+                    >
+                      {/* Product Name Header */}
+                      <div className="bg-gradient-to-r from-primary/5 to-primary/10 dark:from-primary-950/50 dark:to-primary-900/30 px-6 py-4 border-b">
+                        <div className="flex items-start gap-3">
+                          <div className="flex items-center justify-center w-8 h-8 rounded-lg bg-primary/10 text-primary shrink-0 mt-0.5">
+                            <span className="text-sm font-bold">{ci * 10 + pi + 1}</span>
+                          </div>
+                          <div>
+                            <h4 className="text-lg font-bold">{product.name}</h4>
+                            <p className="text-sm text-muted-foreground mt-1">
+                              {product.intro}
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+
+                      {/* Product Details */}
+                      <div className="px-6 py-5 space-y-4">
+                        {/* Features */}
+                        <div>
+                          <div className="flex items-center gap-2 text-sm font-semibold text-primary mb-2">
+                            <CheckCircle2 className="h-4 w-4" />
+                            <span>Product Features</span>
+                          </div>
+                          <ul className="space-y-1.5">
+                            {product.features.map((f, fi) => (
+                              <li key={fi} className="text-sm text-muted-foreground flex gap-2">
+                                <span className="text-primary/60 mt-1.5 shrink-0">•</span>
+                                <span>{f}</span>
+                              </li>
+                            ))}
+                          </ul>
+                        </div>
+
+                        {/* Application */}
+                        <div>
+                          <div className="flex items-center gap-2 text-sm font-semibold text-accent-700 dark:text-accent mb-2">
+                            <Target className="h-4 w-4" />
+                            <span>Application Area</span>
+                          </div>
+                          <p className="text-sm text-muted-foreground">{product.application}</p>
+                        </div>
+
+                        {/* Specs Table */}
+                        {product.specs && (
+                          <div>
+                            <div className="flex items-center gap-2 text-sm font-semibold text-muted-foreground mb-2">
+                              <Ruler className="h-4 w-4" />
+                              <span>Specifications</span>
+                            </div>
+                            <div className="grid grid-cols-2 gap-px bg-border rounded-lg overflow-hidden text-sm">
+                              {product.specs.map((s, si) => (
+                                <div
+                                  key={si}
+                                  className="flex bg-card px-3 py-2"
+                                >
+                                  <span className="text-muted-foreground w-1/2 shrink-0">{s.label}</span>
+                                  <span className="font-medium">{s.value}</span>
+                                </div>
+                              ))}
+                            </div>
+                          </div>
+                        )}
+                      </div>
+                    </div>
+                  ))}
+                </div>
               </div>
-              <h3 className="text-lg font-bold mb-2">
-                {dict["product.consumables"]}
-              </h3>
-              <p className="text-sm text-muted-foreground leading-relaxed">
-                {dict["product.consumables.desc"]}
-              </p>
-            </div>
-            <div className="rounded-2xl border bg-card p-6 hover:shadow-md transition-shadow">
-              <div className="flex items-center justify-center w-12 h-12 rounded-xl bg-accent/10 text-accent-700 dark:text-accent mb-4">
-                <FlaskConical className="h-6 w-6" />
-              </div>
-              <h3 className="text-lg font-bold mb-2">
-                {dict["product.chemicals"]}
-              </h3>
-              <p className="text-sm text-muted-foreground leading-relaxed">
-                {dict["product.chemicals.desc"]}
-              </p>
-            </div>
-            <div className="rounded-2xl border bg-card p-6 hover:shadow-md transition-shadow">
-              <div className="flex items-center justify-center w-12 h-12 rounded-xl bg-primary/10 text-primary mb-4">
-                <Building2 className="h-6 w-6" />
-              </div>
-              <h3 className="text-lg font-bold mb-2">
-                {dict["product.equipment"]}
-              </h3>
-              <p className="text-sm text-muted-foreground leading-relaxed">
-                {dict["product.equipment.desc"]}
-              </p>
-            </div>
+            ))}
           </div>
         </div>
       </section>
@@ -215,64 +296,6 @@ export default async function PartnerPage({ params }: Props) {
                 <p className="text-sm text-muted-foreground">{item.desc}</p>
               </div>
             ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Contact */}
-      <section className="py-16 md:py-20">
-        <div className="container mx-auto px-4 max-w-7xl">
-          <div className="max-w-2xl mx-auto text-center">
-            <h2 className="text-3xl font-bold mb-4">
-              {dict["contact.title"]}
-            </h2>
-            <p className="text-lg text-muted-foreground mb-8">
-              {dict["contact.desc"]}
-            </p>
-            <div className="grid sm:grid-cols-2 gap-4 text-left">
-              <a
-                href="tel:+8676982999780"
-                className="flex items-center gap-3 p-4 rounded-xl border bg-card hover:bg-muted transition-colors"
-              >
-                <Phone className="h-5 w-5 text-primary shrink-0" />
-                <div>
-                  <p className="text-xs text-muted-foreground">Tel</p>
-                  <p className="font-medium">{dict["contact.phone"]}</p>
-                </div>
-              </a>
-              <a
-                href="mailto:sfym@dgsuofeng.cn"
-                className="flex items-center gap-3 p-4 rounded-xl border bg-card hover:bg-muted transition-colors"
-              >
-                <Mail className="h-5 w-5 text-primary shrink-0" />
-                <div>
-                  <p className="text-xs text-muted-foreground">Email</p>
-                  <p className="font-medium">{dict["contact.email"]}</p>
-                </div>
-              </a>
-              <a
-                href="http://www.dgsuofeng.cn"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center gap-3 p-4 rounded-xl border bg-card hover:bg-muted transition-colors"
-              >
-                <Globe className="h-5 w-5 text-primary shrink-0" />
-                <div>
-                  <p className="text-xs text-muted-foreground">Website</p>
-                  <p className="font-medium flex items-center gap-1">
-                    {dict["contact.website"]}
-                    <ExternalLink className="h-3 w-3" />
-                  </p>
-                </div>
-              </a>
-              <div className="flex items-center gap-3 p-4 rounded-xl border bg-card">
-                <MapPin className="h-5 w-5 text-primary shrink-0" />
-                <div>
-                  <p className="text-xs text-muted-foreground">Address</p>
-                  <p className="font-medium text-sm">{dict["contact.address"]}</p>
-                </div>
-              </div>
-            </div>
           </div>
         </div>
       </section>
