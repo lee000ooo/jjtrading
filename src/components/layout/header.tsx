@@ -15,7 +15,6 @@ import { cn, type Locale, localeNames } from "@/lib/utils";
 import { useTheme } from "@/components/layout/theme-provider";
 import { MobileNav } from "@/components/layout/mobile-nav";
 import { useState, useRef, useEffect } from "react";
-import { asset } from "@/lib/asset";
 
 interface HeaderProps {
   commonDict: Record<string, string>;
@@ -87,7 +86,7 @@ export function Header({ commonDict, locale }: HeaderProps) {
             className="flex items-center gap-3 group"
           >
             <img
-              src={asset("/images/logo.png")}
+              src="/images/logo.png"
               alt="璟江贸易"
               className="h-9 w-auto transition-transform group-hover:scale-105"
             />
