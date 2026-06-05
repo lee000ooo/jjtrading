@@ -6,6 +6,7 @@ interface Dictionary {
   about: Record<string, string>;
   products: Record<string, string>;
   partner: Record<string, string>;
+  partnerYouchang: Record<string, string>;
   contact: Record<string, string>;
 }
 
@@ -45,6 +46,12 @@ const partnerDicts = {
   zh: () => import("@/locales/zh/partner.json").then((m) => m.default) as Promise<Record<string, string>>,
 };
 
+const partnerYouchangDicts = {
+  ru: () => import("@/locales/ru/partner-youchang.json").then((m) => m.default) as Promise<Record<string, string>>,
+  en: () => import("@/locales/en/partner-youchang.json").then((m) => m.default) as Promise<Record<string, string>>,
+  zh: () => import("@/locales/zh/partner-youchang.json").then((m) => m.default) as Promise<Record<string, string>>,
+};
+
 export async function getDictionary(locale: Locale): Promise<Record<string, string>> {
   return dictionaries[locale]();
 }
@@ -67,6 +74,10 @@ export async function getContactDictionary(locale: Locale): Promise<Record<strin
 
 export async function getPartnerDictionary(locale: Locale): Promise<Record<string, string>> {
   return partnerDicts[locale]();
+}
+
+export async function getPartnerYouchangDictionary(locale: Locale): Promise<Record<string, string>> {
+  return partnerYouchangDicts[locale]();
 }
 
 export type { Dictionary };

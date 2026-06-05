@@ -6,7 +6,9 @@
   "nav.home": "Главная",
   "nav.about": "О нас",
   "nav.products": "Продукция",
-  "nav.partner": "Партнёр",
+  "nav.partner": "Партнёры",
+  "nav.partner.shuofeng": "Shuofeng Grinding",
+  "nav.partner.youchang": "Youchang Precision",
   "nav.contact": "Контакты",
 
   "header.tagline": "Надёжный поставщик электронных компонентов",

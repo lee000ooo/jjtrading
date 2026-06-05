@@ -1,0 +1,41 @@
+{
+  "page.title": "Special Partner — Youchang Precision Machinery",
+  "page.subtitle": "From Taiwan, professional CNC lathe and automatic lathe manufacturer",
+
+  "hero.title": "Youchang Precision Machinery",
+  "hero.subtitle": "People-oriented · Quality Service",
+  "hero.desc": "Dongguan Youchang Precision Machinery Co., Ltd. is a large-scale professional manufacturer of automatic lathes, CNC lathes and computer peripheral equipment. The company originated from Taiwan with three decades of industry history. The China factory is located in Liaobu Town, Dongguan City, Guangdong Province. Products are widely used in metal, electronics, electrical appliances, watches, instruments, glasses, lighting, sanitary ware, automotive, optoelectronics, fishing gear, locks, probes, connectors, mobile phone accessories, computer accessories, all kinds of screws and other processing areas.",
+
+  "about.title": "Company Profile",
+  "about.desc1": "Youchang Precision Machinery strictly controls product quality from initial development, parts procurement to finished product manufacturing. Every process is strictly executed, with repeated testing and inspection to achieve zero-defect products.",
+  "about.desc2": "The company adheres to the philosophy of 'People-oriented, quality service', winning the market with integrity and committed to providing quality products and services to customers.",
+
+  "culture.title": "Certifications",
+  "culture.slogan": "People-oriented · Quality Service · Integrity Wins",
+  "culture.honor": "ISO9001 Certified",
+  "culture.achievement": "ISO/TS16949 Certified",
+
+  "products.title": "Product Series",
+  "products.subtitle": "Precision CNC Lathes & Automatic Lathes",
+
+  "product.1.name": "YC-CNC36A Inclined Bed CNC Lathe",
+  "product.1.intro": "High-precision inclined bed CNC lathe with integral precision casting for stable performance.",
+  "product.1.features": "Taiwan Pusen A2-4 spindle, 6000rpm high-gloss precision machining|Double pre-tension structure reduces thermal variation|Precision assembly process protects screw guide rail design|Integral precision casting, cost-effective and stable",
+  "product.1.application": "Suitable for high-precision batch processing of precision hardware parts, electronic accessories, automotive parts",
+  "product.1.specs": "Spindle through hole: 46mm|Max bar diameter: 35mm|Max machining dia (disk): 280mm|Max processing length: 980mm|X-axis travel: 350mm|Z-axis travel: 180mm|XZ rapid speed: 24-36m/min|Repeatability: 0.005mm|Center height: 58.8mm|Spindle motor: 3.7KW|Total power: 7KW|Size: 1940×1500×1650mm|Weight: 2100KG",
+
+  "product.2.name": "YC-CNC20 Inclined Bed CNC Lathe",
+  "product.2.intro": "Precision inclined bed CNC lathe with Taiwan Pusen 25 hydraulic spindle.",
+  "product.2.features": "Taiwan Pusen 25 hydraulic spindle (TAC-10-YX-4), 6000rpm|Double pre-tension structure reduces thermal variation|Precision assembly process protects guide rails|Integral casting, cost-effective",
+  "product.2.application": "Suitable for batch processing of precision small hardware parts, electronic connectors, optical parts",
+  "product.2.specs": "Spindle through hole: 36mm|Max bar diameter: 25mm|Max machining dia (disk): 150mm|Max processing length: 600mm|X-axis travel: 300mm|Z-axis travel: 140mm|Repeatability: 0.005mm|Center height: 40mm|Spindle motor: 3.7KW|Total power: 7KW|Size: 1300×1000×1600mm|Weight: 1800KG",
+
+  "product.3.name": "YC-CICNC20A Cam Intelligent CNC Lathe",
+  "product.3.intro": "Innovative cam intelligent CNC lathe combining traditional cam and CNC advantages.",
+  "product.3.features": "14\" self-developed touch screen, oil resistant, Chinese/English system, easy to operate|Five tools working synchronously with Z&X axes, 1.5x efficiency improvement|Capable of complex workpieces, wide processing range|Precision up to 0.005mm|No need for cam opening for process changes, just modify parameters|Multi-axis linkage, auto scheduling, auto tool replenishment|Remote control via computer or mobile phone",
+  "product.3.application": "Suitable for mass precision processing of various hardware parts, electronic accessories, communication parts, automotive parts",
+  "product.3.specs": "Max bar diameter: 20mm|Max processing length: 63mm|Max speed: 6000r/min (working 4000r/min)|Spindle motor: 2.2KW/3.7KW|Repeatability: 0.005mm|XZ rapid speed: 24-36m/min|X-axis travel: 210mm|Z-axis travel: 140mm|Bed: HT250 integral casting|Size: 1420×1240×2240mm|Weight: 1260KG",
+
+  "contact.title": "Contact Youchang Precision Machinery",
+  "contact.desc": "For precision machining equipment needs, feel free to contact us"
+}

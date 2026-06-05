@@ -12,7 +12,8 @@ export function Footer({ commonDict, locale }: FooterProps) {
     { href: `/${locale}`, label: commonDict["nav.home"] },
     { href: `/${locale}/about`, label: commonDict["nav.about"] },
     { href: `/${locale}/products`, label: commonDict["nav.products"] },
-    { href: `/${locale}/partner`, label: commonDict["nav.partner"] },
+    { href: `/${locale}/partner/shuofeng`, label: commonDict["nav.partner.shuofeng"] },
+    { href: `/${locale}/partner/youchang`, label: commonDict["nav.partner.youchang"] },
     { href: `/${locale}/contact`, label: commonDict["nav.contact"] },
   ];
 

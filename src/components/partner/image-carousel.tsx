@@ -41,7 +41,7 @@ export function ImageCarousel({ images, interval = 3500 }: ImageCarouselProps) {
 
   return (
     <div
-      className="relative w-full max-w-6xl mx-auto"
+      className="relative w-full max-w-6xl mx-auto group"
       onMouseEnter={() => setIsPaused(true)}
       onMouseLeave={() => setIsPaused(false)}
     >

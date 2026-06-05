@@ -25,7 +25,9 @@ export function Header({ commonDict, locale }: HeaderProps) {
   const pathname = usePathname();
   const { theme, toggleTheme } = useTheme();
   const [langOpen, setLangOpen] = useState(false);
+  const [partnerOpen, setPartnerOpen] = useState(false);
   const langRef = useRef<HTMLDivElement>(null);
+  const partnerRef = useRef<HTMLDivElement>(null);
 
   const locales: { code: Locale; name: string; flag: string }[] = [
     { code: "ru", name: localeNames.ru, flag: "🇷🇺" },
@@ -37,6 +39,9 @@ export function Header({ commonDict, locale }: HeaderProps) {
     function handleClickOutside(e: MouseEvent) {
       if (langRef.current && !langRef.current.contains(e.target as Node)) {
         setLangOpen(false);
+      }
+      if (partnerRef.current && !partnerRef.current.contains(e.target as Node)) {
+        setPartnerOpen(false);
       }
     }
     document.addEventListener("mousedown", handleClickOutside);
@@ -62,8 +67,13 @@ export function Header({ commonDict, locale }: HeaderProps) {
     { href: `/${locale}`, label: commonDict["nav.home"] },
     { href: `/${locale}/about`, label: commonDict["nav.about"] },
     { href: `/${locale}/products`, label: commonDict["nav.products"] },
-    { href: `/${locale}/partner`, label: commonDict["nav.partner"] },
     { href: `/${locale}/contact`, label: commonDict["nav.contact"] },
+  ];
+
+  const partnerSubLinks = [
+    { href: `/${locale}/partner`, label: commonDict["nav.partner"] },
+    { href: `/${locale}/partner/shuofeng`, label: commonDict["nav.partner.shuofeng"] },
+    { href: `/${locale}/partner/youchang`, label: commonDict["nav.partner.youchang"] },
   ];
 
   return (
@@ -106,6 +116,43 @@ export function Header({ commonDict, locale }: HeaderProps) {
                 {link.label}
               </Link>
             ))}
+            {/* Partner Dropdown */}
+            <div className="relative" ref={partnerRef}>
+              <button
+                onClick={() => setPartnerOpen(!partnerOpen)}
+                className={cn(
+                  "px-4 py-2 rounded-lg text-sm font-medium transition-colors inline-flex items-center gap-1",
+                  isActive(`/${locale}/partner`)
+                    ? "bg-primary/10 text-primary"
+                    : "text-foreground/70 hover:text-foreground hover:bg-muted"
+                )}
+              >
+                {commonDict["nav.partner"]}
+                <ChevronDown
+                  className={cn(
+                    "h-3 w-3 transition-transform",
+                    partnerOpen && "rotate-180"
+                  )}
+                />
+              </button>
+              {partnerOpen && (
+                <div className="absolute left-0 mt-2 w-56 rounded-xl border bg-card shadow-lg animate-slide-down overflow-hidden z-50">
+                  {partnerSubLinks.map((link) => (
+                    <Link
+                      key={link.href}
+                      href={link.href}
+                      className={cn(
+                        "flex items-center gap-2 px-4 py-2.5 text-sm transition-colors hover:bg-muted",
+                        isActive(link.href) && "bg-primary/5 text-primary font-medium"
+                      )}
+                      onClick={() => setPartnerOpen(false)}
+                    >
+                      {link.label}
+                    </Link>
+                  ))}
+                </div>
+              )}
+            </div>
           </nav>
 
           {/* Right Actions */}
