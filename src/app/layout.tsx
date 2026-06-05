@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import { asset } from "@/lib/asset";
 
 export const metadata: Metadata = {
   title: {
@@ -65,7 +66,7 @@ export default function RootLayout({
   return (
     <html lang="ru" suppressHydrationWarning>
       <head>
-        <link rel="icon" href="/favicon.ico" sizes="any" />
+        <link rel="icon" href={asset("/favicon.ico")} sizes="any" />
         <script
           dangerouslySetInnerHTML={{
             __html: `

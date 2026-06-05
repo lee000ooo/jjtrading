@@ -8,6 +8,7 @@ import {
 } from "lucide-react";
 import { getDictionary, getContactDictionary } from "@/lib/dictionaries";
 import { ContactForm } from "./contact-form";
+import { asset } from "@/lib/asset";
 import type { Locale } from "@/lib/utils";
 
 type Props = {
@@ -178,7 +179,7 @@ export default async function ContactPage({ params }: Props) {
                   </a>
                   <div className="flex flex-col items-center px-4 py-2 rounded-xl bg-green-50 dark:bg-green-950/30 border border-green-200 dark:border-green-900">
                     <img
-                      src="/images/wechat-qr.jpg"
+                      src={asset("/images/wechat-qr.jpg")}
                       alt="WeChat QR Code"
                       className="w-24 h-24 object-contain"
                     />

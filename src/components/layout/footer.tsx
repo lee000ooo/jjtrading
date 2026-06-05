@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { Cpu, Mail, Phone, MapPin, Clock, ArrowUpRight } from "lucide-react";
 import type { Locale } from "@/lib/utils";
+import { asset } from "@/lib/asset";
 
 interface FooterProps {
   commonDict: Record<string, string>;
@@ -30,7 +31,7 @@ export function Footer({ commonDict, locale }: FooterProps) {
                 className="flex items-center gap-3 mb-4"
               >
                 <img
-                  src="/images/logo.png"
+                  src={asset("/images/logo.png")}
                   alt="璟江贸易"
                   className="h-10 w-auto brightness-0 invert"
                 />

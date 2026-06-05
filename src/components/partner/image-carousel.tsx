@@ -3,6 +3,7 @@
 import { useState, useEffect, useCallback, useRef } from "react";
 import { ChevronLeft, ChevronRight, Pause, Play } from "lucide-react";
 import { cn } from "@/lib/utils";
+import { asset } from "@/lib/asset";
 
 interface ImageCarouselProps {
   images: { src: string; alt: string }[];
@@ -56,7 +57,7 @@ export function ImageCarousel({ images, interval = 3500 }: ImageCarouselProps) {
             )}
           >
             <img
-              src={img.src}
+              src={asset(img.src)}
               alt={img.alt || `Image ${i + 1}`}
               className="w-full h-full object-contain p-2"
               loading={i === 0 ? "eager" : "lazy"}
